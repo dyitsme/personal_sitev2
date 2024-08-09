@@ -7,11 +7,11 @@ function openMenu() {
 </script>
 <template>
     <!-- mobile menu -->
-  <div>
-    <div class="mx-auto flex max-w-[90%] lg:items-center justify-between">
-      <div>
+  <div class="mx-auto max-w-[90%]">
+    <div class="lg:py-4 flex max-w- lg:items-center justify-between">
+      <div class="flex items-center">
         <span class="text-xl md:text-3xl">
-          Denzel Yongco
+          <NuxtLink to="/#">Denzel Yongco</NuxtLink>
         </span>
       </div>
       <ul class="hidden lg:flex lg:text-xl lg:gap-16">
@@ -35,17 +35,18 @@ function openMenu() {
         </button>
       </div>
     </div>
-  </div>
+
   <!-- mobile menu -->
   <ul class="grid grid-cols-1 divide-y lg:hidden" :class="[open ? 'block' : 'hidden']">
-    <li>
-      <NuxtLink to="/">denzel</NuxtLink>
+    <li class="py-4">
+      <NuxtLink to="/">Home</NuxtLink>
     </li>
-    <li>
+    <li class="py-4">
       <NuxtLink to="/#">Projects</NuxtLink>
     </li>
-    <li>
+    <li class="py-4">
       <NuxtLink to="">Resume</NuxtLink>
     </li>
   </ul>
+  </div>
 </template>
