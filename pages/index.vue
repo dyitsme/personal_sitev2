@@ -19,11 +19,13 @@
       <SkillCard icon="/icons/uiux.svg" title="UI/UX" description="I do this sometimes to create better websites. I spend some time iterating over designs."/>
     </div>
     <h1 class="text-2xl py-12 md:py-20 md:text-5xl">Recent projects</h1>
-    <div class="grid md:grid-col-1 md:grid-cols-2 gap-16">
+    <div class="grid md:grid-col-1 md:grid-cols-2 gap-16 justify-between">
       <ProjectCard/>
       <ProjectCard/>
       <ProjectCard/>
       <ProjectCard/>
     </div>
+    <NuxtLink class="text-primary border-primary border md:rounded-lg md:text-3xl md:px-7 md:py-2 md:my-20 block text-center">View all</NuxtLink>
+    <ContactCard/>
   </div>
 </template>
