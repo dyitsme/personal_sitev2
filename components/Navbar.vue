@@ -22,7 +22,7 @@ function openMenu() {
           <NuxtLink to="/projects">Projects</NuxtLink>
         </li>
         <li>
-          <NuxtLink class="bg-primary text-white rounded px-4 py-1" to="#">Resume</NuxtLink>
+          <NuxtLink class="bg-primary text-white hover:bg-blue-600 focus:bg-blue-400 rounded px-4 py-1" to="#">Resume</NuxtLink>
         </li>
       </ul>
       <div class="lg:hidden">
