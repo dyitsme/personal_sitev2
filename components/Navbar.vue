@@ -27,12 +27,13 @@ function openMenu() {
       </ul>
       <div class="lg:hidden">
         <button class="lg:hidden" @click="openMenu()">
-          <svg width="53" height="52" viewBox="0 0 53 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <Icon name="solar:hamburger-menu-linear" style="color: #111827" size="3em"/>
+        </button>
+          <!-- <svg width="53" height="52" viewBox="0 0 53 52" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M43.8337 15.167H9.16699" stroke="#111827" stroke-width="3.25" stroke-linecap="round"/>
           <path d="M43.8337 26H9.16699" stroke="#111827" stroke-width="3.25" stroke-linecap="round"/>
           <path d="M43.8337 36.833H9.16699" stroke="#111827" stroke-width="3.25" stroke-linecap="round"/>
-          </svg>
-        </button>
+          </svg> -->
       </div>
     </div>
 

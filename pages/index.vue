@@ -25,7 +25,9 @@
       <ProjectCard/>
       <ProjectCard/>
     </div>
-    <NuxtLink class="text-primary border-primary border md:rounded-lg md:text-3xl md:px-7 md:py-2 md:my-20 block text-center">View all</NuxtLink>
+    <div class="text-center my-10 md:my-20">
+      <NuxtLink class="text-primary border-primary hover:bg-primary hover:text-white border rounded md:rounded-lg md:text-3xl px-10 py-2 md:px-7 md:py-2 cursor-pointer">View all</NuxtLink>
+    </div>
     <ContactCard/>
   </div>
 </template>
