@@ -19,10 +19,10 @@ function openMenu() {
           <NuxtLink to="/">Home</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/#">Projects</NuxtLink>
+          <NuxtLink to="/projects">Projects</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="">Resume</NuxtLink>
+          <NuxtLink class="bg-primary text-white rounded px-4 py-1" to="#">Resume</NuxtLink>
         </li>
       </ul>
       <div class="lg:hidden">
@@ -43,10 +43,10 @@ function openMenu() {
       <NuxtLink to="/">Home</NuxtLink>
     </li>
     <li class="py-4">
-      <NuxtLink to="/#">Projects</NuxtLink>
+      <NuxtLink to="/projects">Projects</NuxtLink>
     </li>
     <li class="py-4">
-      <NuxtLink to="">Resume</NuxtLink>
+      <NuxtLink class="" to="">Resume</NuxtLink>
     </li>
   </ul>
   </div>

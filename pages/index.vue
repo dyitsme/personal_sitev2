@@ -29,5 +29,7 @@
       <NuxtLink class="text-primary border-primary hover:bg-primary hover:text-white border rounded md:rounded-lg md:text-3xl px-10 py-2 md:px-7 md:py-2 cursor-pointer">View all</NuxtLink>
     </div>
     <ContactCard/>
+    <PageSpacer/>
   </div>
+  <PageFooter/>
 </template>
