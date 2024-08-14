@@ -4,6 +4,13 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   modules: ["@nuxt/content", "@nuxt/icon"],
+  content: {
+    highlight: {
+      theme: 'github-light'
+      // theme: 'github-dark',
+      // preload: ['ts', 'js', 'css', 'java', 'json', 'bash', 'vue']
+    }
+  },
   postcss: {
     plugins: {
       tailwindcss: {},
