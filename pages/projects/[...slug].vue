@@ -1,5 +1,5 @@
 <script setup lang="ts">
-// const { data } = await useAsyncData('hello-world', () => queryContent('/projects/hello-world').findOne())
+import { format } from 'date-fns'
 const { path } = useRoute()
 
 const { data, error } = await useAsyncData(`content-${path}`, () => {
@@ -17,14 +17,16 @@ if (!data.value) {
   console.log('No content found for this path:', path)
 }
 
-
+function formatDate(date: String) {
+  return format(new Date(date), 'yyyy-MM-dd')
+}
 </script>
 
 <template>
   <Navbar/>
   <div class="mx-auto max-w-[84%] md:max-w-[60%] flex flex-col items-center">
     <h1 class="text-2xl md:text-5xl py-8 md:py-12">{{ data.title }}</h1>
-    <p class="text-gray-400 pb-4">Written at: {{ data.date }}</p>
+    <p class="pb-8">Date: {{ formatDate(data.date) }}</p>
     <img class="min-h-[200px] max-h-[500px] w-full object-cover rounded-2xl" :src=data.cover alt="">
     <div class="flex w-full gap-8 my-8 md:mb-16 md:mt-8">
       <NuxtLink class="inline-flex items-center gap-2 bg-gray-900 text-white px-4 py-2 md:px-6 rounded cursor-pointer">
@@ -46,14 +48,14 @@ if (!data.value) {
 
 <style scoped>
 main :deep(h1) {
-  @apply text-3xl
+  @apply text-3xl mb-4
 }
 
 main :deep(p) {
-  @apply mb-2 
+  @apply mb-4 
 }
 main :deep(pre) {
-  @apply bg-gray-100 border p-4 rounded w-full;
+  @apply bg-gray-100 border p-4 mb-4 rounded w-full;
 }
 main :deep(code) {
   @apply overflow-x-auto;
