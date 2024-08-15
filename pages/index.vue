@@ -1,3 +1,11 @@
+<script setup lang="ts">
+const { data: recentProjects } = await useAsyncData('projects', () => {
+
+  return queryContent('/projects').sort({ date: -1}).limit(4).find()
+})
+
+</script>
+
 <template>
   <Navbar/>
   <div class="mx-auto max-w-[84%] flex-col">
@@ -19,12 +27,11 @@
       <SkillCard icon="/icons/uiux.svg" title="UI/UX" description="I do this sometimes to create better websites. I spend some time iterating over designs."/>
     </div>
     <h1 class="text-2xl py-12 md:py-20 md:text-5xl">Recent projects</h1>
-    <div class="grid md:grid-col-1 md:grid-cols-2 gap-16 justify-between">
-      <ProjectCard/>
-      <ProjectCard/>
-      <ProjectCard/>
-      <ProjectCard/>
-    </div>
+    <ul class="grid md:grid-col-1 md:grid-cols-2 gap-16 justify-between">
+      <li v-for="recentProject in recentProjects" :key="recentProject._id">
+        <ProjectCard :title="recentProject.title" :description="recentProject.description" :date="recentProject.date" :cover="recentProject.cover" :path="recentProject._path"/>
+      </li>
+    </ul>
     <div class="text-center my-10 md:my-20">
       <NuxtLink class="text-primary border-primary hover:bg-primary hover:text-white border rounded md:rounded-lg md:text-3xl px-10 py-2 md:px-7 md:py-2 cursor-pointer">View all</NuxtLink>
     </div>
