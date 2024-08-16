@@ -1,6 +1,6 @@
 ---
 title: Real estate price predictor
-description: Predicts the estimated property price, perceived safety, and price factors within Pasig and Parañaque cities.
+description: This app predicts the estimated price, perceived safety, and price factors of a property within Pasig and Parañaque cities.
 date: 2024-08-09
 cover: /img/homebudget.png
 github: https://github.com/dyitsme/realestate_frontend
@@ -29,9 +29,9 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser.
+4. Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-
+5. Head [here](https://github.com/dyitsme/realestate_backend) and follow the steps to install the server for this app.
 
 ## Pages
 - `/` shows the landing page
