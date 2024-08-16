@@ -2,7 +2,7 @@
 import { format } from 'date-fns'
 
 function formatDate(date: String) {
-  return format(new Date(date), 'yyyy-MM-dd')
+  return format(new Date(date), 'PP')
 }
 
 defineProps(['title', 'description', 'date', 'cover', 'path'])

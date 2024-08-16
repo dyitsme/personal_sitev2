@@ -11,7 +11,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#3B82F6'
+        // 'primary': '#3B82F6'
+        // 'primary':'#111827'
+        'primary': '#1F2937'
       }
     },
   },

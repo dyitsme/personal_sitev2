@@ -18,7 +18,7 @@ if (!data.value) {
 }
 
 function formatDate(date: String) {
-  return format(new Date(date), 'yyyy-MM-dd')
+  return format(new Date(date), 'PP')
 }
 </script>
 
@@ -29,7 +29,7 @@ function formatDate(date: String) {
     <p class="pb-8">Date: {{ formatDate(data.date) }}</p>
     <img class="min-h-[200px] max-h-[500px] w-full object-cover rounded-2xl" :src=data.cover alt="">
     <div class="flex w-full gap-8 my-8 md:mb-16 md:mt-8">
-      <NuxtLink class="inline-flex items-center gap-2 bg-gray-900 text-white px-4 py-2 md:px-6 rounded cursor-pointer">
+      <NuxtLink class="inline-flex items-center gap-2 bg-white border border-primary px-4 py-2 md:px-6 rounded cursor-pointer">
         <Icon name="iconoir:github" class="text-2xl md:text-3xl"/>
         <p>Github</p>
       </NuxtLink>
