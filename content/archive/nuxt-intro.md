@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Nuxt 3
 description: This is a quick introduction on how to get started with Nuxt 3.
-date: 2024-05-22
+date: 2024-08-09
 cover: /img/house.jpg
 tags:
   - nuxt
