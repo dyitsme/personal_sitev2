@@ -8,7 +8,7 @@ tags:
 ---
 ## About project
 
-A case study that examines that popularities of a song per genre using regression models such as `linear regresion`, `logistic regression`, and `neural networks`. It uses the spotify music dataset that is composed of 17,996 songs. The hyperparameters were tuned by using grid search, thus increasing the performance of said models. 
+A case study that examines that popularities across several genres using regression models such as `linear regresion`, `logistic regression`, and `neural networks`. It used the spotify music dataset which is composed of 17,996 songs. The hyperparameters were tuned by using grid search, thus increasing the performance of these models. 
 
 ## Getting started
 1. Clone the repository or download the zip

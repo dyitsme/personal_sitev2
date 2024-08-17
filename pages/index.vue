@@ -16,8 +16,8 @@ const { data: recentProjects } = await useAsyncData('projects', () => {
         </h1>
         <p class="text-gray-400 py-10 md:text-xl">I'm a computer science student who does web development and data science. Outside of work, I like to go to the gym and read books sometimes.</p>
         <div class="flex gap-8 text-lg md:text-2xl">
-          <RouterLink class="transition duration-150 text-white bg-primary hover:bg-gray-900 focus:bg-gray-700 px-6 py-2 rounded-md">Resume</RouterLink>
-          <RouterLink class="underline text-primary hover:text-gray-600 px-6 py-2 rounded-md">Contact</RouterLink>
+          <NuxtLink to="" class="transition duration-150 text-white bg-primary hover:bg-gray-900 focus:bg-gray-700 px-6 py-2 rounded-md">Resume</NuxtLink>
+          <NuxtLink to="mailto:dbyongco@outlook.com" class="underline text-primary hover:text-gray-600 px-6 py-2 rounded-md">Contact</NuxtLink>
         </div>
       </div>
       <img src="/icons/profile.svg" class="text-center md:ml-32" style="width: clamp(166px, 60%, 364px)" alt="">

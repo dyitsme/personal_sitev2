@@ -8,9 +8,9 @@
       <img class="max-w-[80px] max-h-[80px] md:max-w-[152px] md:max-h-[152px] md:mx-20" src="/icons/contact.svg" alt="contact">
     </div>
     <div class="flex justify-center md:justify-normal gap-4">
-      <NuxtLink to="#"><Icon name="iconoir:github" class="text-gray-100 hover:text-blue-500 transition duration-150" size="2em"/></NuxtLink>
-      <NuxtLink to="#"><Icon name="mdi:linkedin" class="text-gray-100 hover:text-blue-500 transition duration-150" size="2em" /></NuxtLink>
-      <NuxtLink to="#"><Icon name="basil:telegram-outline" class="text-gray-100 hover:text-blue-500 transition duration-150" size="2em"/></NuxtLink> 
+      <NuxtLink to="https://github.com/dyitsme"><Icon name="iconoir:github" class="text-gray-100 hover:text-blue-500 transition duration-150" size="2em"/></NuxtLink>
+      <NuxtLink to="https://www.linkedin.com/in/denzel-yongco/"><Icon name="mdi:linkedin" class="text-gray-100 hover:text-blue-500 transition duration-150" size="2em" /></NuxtLink>
+      <NuxtLink to="https://t.me/denzelyongco"><Icon name="basil:telegram-outline" class="text-gray-100 hover:text-blue-500 transition duration-150" size="2em"/></NuxtLink> 
     </div>
   </div>
 </template>
