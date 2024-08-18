@@ -17,4 +17,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      title: 'Denzel Yongco',
+    }
+  }
 })

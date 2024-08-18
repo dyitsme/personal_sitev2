@@ -14,9 +14,9 @@ const { data: recentProjects } = await useAsyncData('projects', () => {
         <h1 class="text-primary text-4xl md:text-6xl font-bold text-center md:text-left">
           Hi I'm Denzel.
         </h1>
-        <p class="text-gray-400 py-10 md:text-xl">I'm a computer science student who does web development and data science. Outside of work, I like to go to the gym and read books sometimes.</p>
+        <p class="text-gray-400 py-10 md:text-xl">I'm a computer science student who does web development and data science. I primarily use React, Next, Vue and Nuxt for developing websites. As for data science, I mainly use Python, Pandas, and Scikit-learn. Outside of work, I often go to the gym and read books sometimes.</p>
         <div class="flex gap-8 text-lg md:text-2xl">
-          <NuxtLink to="" class="transition duration-150 text-white bg-primary hover:bg-gray-900 focus:bg-gray-700 px-6 py-2 rounded-md">Resume</NuxtLink>
+          <NuxtLink to="https://drive.google.com/file/d/1OtbhchrqUO_X8RJ1YDb1hX4FTd89OjNQ/view?usp=sharing" class="transition duration-150 text-white bg-primary hover:bg-gray-900 focus:bg-gray-700 px-6 py-2 rounded-md">Resume</NuxtLink>
           <NuxtLink to="mailto:dbyongco@outlook.com" class="underline text-primary hover:text-gray-600 px-6 py-2 rounded-md">Contact</NuxtLink>
         </div>
       </div>
@@ -35,7 +35,7 @@ const { data: recentProjects } = await useAsyncData('projects', () => {
       </li>
     </ul>
     <div class="text-center my-10 md:my-20">
-      <NuxtLink class="text-primary border-primary hover:bg-primary hover:text-white border rounded md:rounded-lg md:text-3xl px-10 py-2 md:px-7 md:py-2 cursor-pointer transition duration-150">View all</NuxtLink>
+      <NuxtLink to="/projects" class="text-primary border-primary hover:bg-primary hover:text-white border rounded md:rounded-lg md:text-3xl px-10 py-2 md:px-7 md:py-2 cursor-pointer transition duration-150">View all</NuxtLink>
     </div>
     <ContactCard/>
     <PageSpacer/>
