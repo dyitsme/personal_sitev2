@@ -12,7 +12,7 @@ tags:
 
 With so many graphics cards to choose from, it can be difficult for customers to find one that fits with their budget. This app used graphics cards product information from the PC Express website. It then displays a dashboard that shows a general overview of the number of graphics cards listed and their respective prices. 
 
-The website can be accessed in https://gpu-dashboard.onrender.com/. This app was built using [Python](https://www.python.org/), [Streamlit](https://streamlit.io/), [Render](https://render.com/), [Jupyter Lab](https://jupyter.org/), and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+This app was built using [Python](https://www.python.org/), [Streamlit](https://streamlit.io/), [Render](https://render.com/), [Jupyter Lab](https://jupyter.org/), and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/).
 
 ## Getting started
 

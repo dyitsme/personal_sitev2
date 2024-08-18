@@ -62,4 +62,7 @@ main :deep(pre) {
 main :deep(code) {
   @apply overflow-x-auto;
 }
+main :deep(ol) {
+  @apply list-decimal mb-4
+}
 </style>
