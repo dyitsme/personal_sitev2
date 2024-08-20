@@ -22,7 +22,7 @@ function openMenu() {
             <NuxtLink class="text-primary hover:text-gray-600 transition duration-150" to="/projects">Projects</NuxtLink>
           </li>
           <li>
-            <NuxtLink class="bg-primary text-white hover:bg-gray-900 focus:bg-gray-700 rounded px-4 py-1" to="/files/Denzel_Yongco_resume.pdf">Resume</NuxtLink>
+            <NuxtLink class="bg-primary text-white hover:bg-gray-900 focus:bg-gray-700 rounded px-4 py-1" to="https://drive.google.com/file/d/1OtbhchrqUO_X8RJ1YDb1hX4FTd89OjNQ/view">Resume</NuxtLink>
           </li>
         </ul>
         <div class="lg:hidden">
@@ -48,7 +48,7 @@ function openMenu() {
       <NuxtLink to="/projects">Projects</NuxtLink>
     </li>
     <li class="py-4">
-      <NuxtLink class="" to="">Resume</NuxtLink>
+      <NuxtLink class="" to="https://drive.google.com/file/d/1OtbhchrqUO_X8RJ1YDb1hX4FTd89OjNQ/view">Resume</NuxtLink>
     </li>
   </ul>
 </template>
