@@ -38,8 +38,9 @@ function openMenu() {
       </div>
   </div>
 
+  </div>
   <!-- mobile menu -->
-  <ul class="grid grid-cols-1 divide-y lg:hidden" :class="[open ? 'block' : 'hidden']">
+  <ul class="grid grid-cols-1 divide-y mx-auto max-w-[90%] lg:hidden" :class="[open ? 'block' : 'hidden']">
     <li class="py-4">
       <NuxtLink to="/">Home</NuxtLink>
     </li>
@@ -50,5 +51,4 @@ function openMenu() {
       <NuxtLink class="" to="">Resume</NuxtLink>
     </li>
   </ul>
-  </div>
 </template>
