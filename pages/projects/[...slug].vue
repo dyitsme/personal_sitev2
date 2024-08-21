@@ -39,7 +39,7 @@ function formatDate(date: String) {
       </NuxtLink>
     </div>
     <main class="w-full">
-      <ContentRenderer :value="data" class="flex flex-col items-start"/>
+      <ContentRenderer :value="data" class=""/>
     </main>
     <PageSpacer/>
   </div>
@@ -57,12 +57,18 @@ main :deep(p) {
   @apply mb-4 
 }
 main :deep(pre) {
-  @apply bg-gray-100 border p-4 mb-4 rounded w-full;
+  @apply bg-gray-100 border p-4 mb-4 rounded w-full overflow-x-auto;
 }
 main :deep(code) {
   @apply overflow-x-auto;
 }
+main :deep(ul) {
+  @apply list-disc mb-4
+}
 main :deep(ol) {
   @apply list-decimal mb-4
+}
+main :deep(img) {
+  @apply max-w-full rounded-xl mb-4
 }
 </style>
