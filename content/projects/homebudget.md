@@ -9,7 +9,7 @@ tags:
 ---
 
 ## Introduction 
-In my bachelor's thesis, I created an app called HomeBudget that helps homebuyers, sellers, and investors make informed decisions on residential properties in Pasig and Parañaque cities. It does this by giving an estimated price of the propertty based on its information and a photo of its exterior. The app also displays other information such as the perceived safety surrounding the property and the property’s price factors. Furthermore, hazard information including flood periods and faultlines can be toggled on the map.
+In my bachelor's thesis, I created an app called HomeBudget that helps homebuyers, sellers, and investors make informed decisions on residential properties in Pasig and Parañaque cities. It does this by giving an estimated price of the property based on its information and a photo of its exterior. The app also displays other information such as the perceived safety surrounding the property and the property’s price factors. Furthermore, hazard information including flood periods and faultlines can be toggled on the map.
 
 
 ## Method
