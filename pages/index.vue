@@ -14,7 +14,7 @@ const { data: recentProjects } = await useAsyncData('projects', () => {
         <h1 class="text-primary text-4xl md:text-6xl font-bold text-center md:text-left">
           Hi I'm Denzel.
         </h1>
-        <p class="text-gray-400 py-10 md:text-xl">I'm a computer science student who does web development and data science. I primarily use React, Next, Vue and Nuxt for developing websites. As for data science, I mainly use Python, Pandas, and Scikit-learn. Outside of work, I often go to the gym, go outdoors, and read books sometimes.</p>
+        <p class="text-gray-400 py-10 md:text-xl">I'm a computer science student who does web development and data science. I primarily use React, Next, Vue and Nuxt for developing websites. As for data science, I mainly use Python and SQL. Outside of work, I often go to the gym, go outdoors, and read books sometimes.</p>
         <div class="flex gap-8 text-lg md:text-2xl">
           <NuxtLink to="https://drive.google.com/file/d/1OtbhchrqUO_X8RJ1YDb1hX4FTd89OjNQ/view" class="transition duration-150 text-white bg-primary hover:bg-gray-900 focus:bg-gray-700 px-6 py-2 rounded-md">Resume</NuxtLink>
           <NuxtLink to="mailto:dbyongco@outlook.com" class="underline text-primary hover:text-gray-600 px-6 py-2 rounded-md">Contact</NuxtLink>
