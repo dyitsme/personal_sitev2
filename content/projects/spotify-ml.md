@@ -4,7 +4,7 @@ description: A case study that examines song popularity across different genres 
 date: 2024-01-06
 cover: /img/spotify.jpg
 github: https://github.com/dyitsme/STINTSY-MP
-tags:
+tags: ['Python']
 ---
 ## About project
 

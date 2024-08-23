@@ -5,7 +5,7 @@ date: 2023-08-31
 cover: /img/gpu_dashboard.png
 github: https://github.com/dyitsme/gpu_specs_prices_dashboard
 app: https://gpu-dashboard.onrender.com/
-tags:
+tags: ['Python']
 ---
 
 ## About the project

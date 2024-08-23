@@ -4,7 +4,7 @@ description: A permission based file management system designed for G. Ilagan De
 date: 2022-12-10
 cover: /img/ifams1.png
 github: https://github.com/dyitsme/CSSWENG-group2
-tags:
+tags: ['Node.js', 'Express.js', 'Mongodb']
 ---
 
 ## Introduction 

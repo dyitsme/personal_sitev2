@@ -5,7 +5,7 @@ date: 2024-08-09
 cover: /img/homebudget.png
 github: https://github.com/dyitsme/realestate_frontend
 app: https://homebudget-comet.vercel.app/
-tags:
+tags: ['Typescript', 'Next.js', 'Python', 'Flask']
 ---
 
 ## Introduction 

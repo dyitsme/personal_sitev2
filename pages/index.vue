@@ -31,7 +31,7 @@ const { data: recentProjects } = await useAsyncData('projects', () => {
     <h1 class="text-2xl py-12 md:py-20 md:text-5xl">Recent projects</h1>
     <ul class="grid md:grid-col-1 md:grid-cols-2 gap-16 justify-between">
       <li v-for="recentProject in recentProjects" :key="recentProject._id">
-        <ProjectCard :title="recentProject.title" :description="recentProject.description" :date="recentProject.date" :cover="recentProject.cover" :path="recentProject._path"/>
+        <ProjectCard :title="recentProject.title" :description="recentProject.description" :date="recentProject.date" :tags="recentProject.tags" :cover="recentProject.cover" :path="recentProject._path"/>
       </li>
     </ul>
     <div class="text-center my-10 md:my-20">

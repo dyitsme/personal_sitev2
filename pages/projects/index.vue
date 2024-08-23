@@ -13,7 +13,7 @@ const { data: projects } = await useAsyncData('projects', () => {
     </h1>
     <ul class="grid md:grid-col-1 md:grid-cols-2 gap-16 justify-between">
       <li v-for="project in projects" :key="project._id">
-        <ProjectCard :title="project.title" :description="project.description" :date="project.date" :cover="project.cover" :path="project._path"/>
+        <ProjectCard :title="project.title" :description="project.description" :date="project.date" :tags="project.tags" :cover="project.cover" :path="project._path"/>
       </li>
     </ul>
     <PageSpacer/>

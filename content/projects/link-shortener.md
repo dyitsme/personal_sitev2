@@ -5,7 +5,7 @@ date: 2023-08-31
 cover: /img/link_shortener.png
 github: https://github.com/dyitsme/UXSTaft2023-DevDeptApp-YONGCO
 app: https://linkbit.netlify.app/
-tags:
+tags: ['Vue.js']
 ---
 
 ## About project

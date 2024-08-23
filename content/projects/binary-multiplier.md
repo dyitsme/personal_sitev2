@@ -5,7 +5,7 @@ date: 2022-12-07
 cover: /img/binary_multiplier.png
 github: https://github.com/dyitsme/CSARCH2-MP
 app: https://binarymultiplier.onrender.com/
-tags:
+tags: ['HTML', 'CSS', 'Javascript']
 ---
 
 This website is used to perform binary multiplication on binary and decimal inputs with the use of the sequential circuit.
