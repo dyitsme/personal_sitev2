@@ -29,11 +29,11 @@ function formatDate(date: String) {
     <p class="pb-8">Date: {{ formatDate(data.date) }}</p>
     <img class="w-full object-cover rounded-2xl" :src=data.cover alt="">
     <div class="flex w-full gap-8 my-8 md:mb-16 md:mt-8">
-      <NuxtLink class="inline-flex items-center gap-2 bg-white border border-primary px-4 py-2 md:px-6 rounded cursor-pointer" :to="data.github" v-if="data.github">
+      <NuxtLink class="inline-flex items-center gap-2 bg-gray-200 hover:bg-gray-300 text-primary px-4 py-2 md:px-6 rounded cursor-pointer transition duration-150" :to="data.github" v-if="data.github">
         <Icon name="iconoir:github" class="text-2xl md:text-3xl"/>
         <p>Github</p>
       </NuxtLink>
-      <NuxtLink class="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 md:px-6 rounded cursor-pointer" :to="data.app" v-if="data.app">
+      <NuxtLink class="inline-flex items-center gap-2 bg-primary hover:bg-gray-900 text-white px-4 py-2 md:px-6 rounded cursor-pointer transition duration-150" :to="data.app" v-if="data.app">
         <Icon name="ic:baseline-launch" class="text-2 xl md:text-3xl"/>
         <p>App</p>
       </NuxtLink>
