@@ -69,6 +69,6 @@ main :deep(ol) {
   @apply list-decimal mb-4
 }
 main :deep(img) {
-  @apply max-w-full rounded-xl mb-4
+  @apply min-w-full rounded-xl mb-4
 }
 </style>
