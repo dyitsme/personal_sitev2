@@ -20,13 +20,13 @@ const { data: recentProjects } = await useAsyncData('projects', () => {
         <NuxtLink to="mailto:dbyongco@outlook.com" class="bg-gray-200 hover:bg-gray-300 text-primary px-6 py-2 rounded-md transition duration-150">Contact</NuxtLink>
         </div>
       </div>
-      <img src="/icons/profile.svg" class="text-center md:ml-32" style="width: clamp(166px, 60%, 364px)" alt="">
+      <img src="/icons/profile.svg" class="text-center md:ml-32" style="width: clamp(166px, 40%, 364px)" alt="">
     </div>
     <h1 class="text-2xl py-12 md:py-20 md:text-5xl">Skills</h1>
     <div class="flex flex-col gap-8 md:flex-row md:justify-between">
-      <SkillCard icon="mdi:web" title="Web development" description="I use the latest technologies in developing websites and web apps."/>
-      <SkillCard icon="simple-icons:pandas" title="Data science" description="I explore data to make better decisions for myself and for others."/>
-      <SkillCard icon="fluent:design-ideas-16-filled" title="UI/UX" description="I design websites that are suitable for different use cases."/>
+      <SkillCard icon="mdi:web" title="Web development" description="I develop websites and web apps by using the latest technologies"/>
+      <SkillCard icon="simple-icons:pandas" title="Data science" description="I identify patterns in data to make better decisions for myself and others."/>
+      <SkillCard icon="fluent:design-ideas-16-filled" title="UI/UX" description="I design sleek and user-friendly websites and web apps."/>
     </div>
     <h1 class="text-2xl py-12 md:py-20 md:text-5xl">Recent projects</h1>
     <ul class="grid md:grid-col-1 md:grid-cols-2 gap-16 justify-between">
