@@ -14,6 +14,9 @@ export default {
         // 'primary': '#3B82F6'
         // 'primary':'#111827'
         'primary': '#1F2937'
+      },
+      screens: {
+        'desktop': '1820px'
       }
     },
   },

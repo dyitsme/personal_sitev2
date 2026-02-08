@@ -8,7 +8,7 @@ const { data: recentProjects } = await useAsyncData('projects', () => {
 
 <template>
   <Navbar/>
-  <div class="mx-auto max-w-[84%] flex-col">
+  <div class="mx-auto max-w-[84%] 2xl:max-w-[80%] desktop:max-w-[60%] flex-col">
     <div class="flex flex-col-reverse items-center md:flex-row">
       <div class="md:py-36">
         <h1 class="text-primary text-4xl md:text-6xl font-bold text-center md:text-left">
@@ -16,7 +16,7 @@ const { data: recentProjects } = await useAsyncData('projects', () => {
         </h1>
         <p class="text-gray-400 py-10 md:text-xl">I'm a computer science student who does web development and data science. I primarily use React, Next, Vue and Nuxt for developing websites. As for data science, I mainly use Python and SQL. Outside of work, I often go to the gym, go outdoors, and read books sometimes.</p>
         <div class="flex gap-8 text-lg md:text-2xl">
-          <NuxtLink to="https://drive.google.com/file/d/1OtbhchrqUO_X8RJ1YDb1hX4FTd89OjNQ/view" class="transition duration-150 text-white bg-primary hover:bg-gray-900 focus:bg-gray-700 px-6 py-2 rounded-md">Resume</NuxtLink>
+          <NuxtLink to="https://drive.google.com/file/d/1M3xpcep3uXYAhoehC41v8cZnjmKfMHCg/view?usp=sharing" class="transition duration-150 text-white bg-primary hover:bg-gray-900 focus:bg-gray-700 px-6 py-2 rounded-md">Resume</NuxtLink>
         <NuxtLink to="mailto:denzel.bryan.yongco@gmail.com" class="bg-gray-200 hover:bg-gray-300 text-primary px-6 py-2 rounded-md transition duration-150">Contact</NuxtLink>
         </div>
       </div>
