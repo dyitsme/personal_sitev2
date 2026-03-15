@@ -51,6 +51,9 @@ function openMenu() {
       <NuxtLink to="/projects">Projects</NuxtLink>
     </li>
     <li class="py-4">
+      <NuxtLink to="mailto:denzel.bryan.yongco@gmail.com">Contact</NuxtLink>
+    </li>
+    <li class="py-4">
       <NuxtLink class="" to="https://drive.google.com/file/d/1M3xpcep3uXYAhoehC41v8cZnjmKfMHCg/view">Resume</NuxtLink>
     </li>
   </ul>
