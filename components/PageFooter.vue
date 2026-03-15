@@ -22,7 +22,7 @@
       <NuxtLink to="https://t.me/denzelyongco"><Icon name="basil:telegram-outline" class="text-gray-100 hover:text-blue-500 transition duration-150" size="2em"/></NuxtLink> 
     </div>
     <div class="text-gray-100 text-center">
-      &copy Denzel Yongco 2024
+      &copy Denzel Yongco 2026
     </div>
   </footer>
 </template>
